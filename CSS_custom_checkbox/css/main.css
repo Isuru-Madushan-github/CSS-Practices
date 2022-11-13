@@ -1,0 +1,16 @@
+*{
+    font-size: 1.5em;
+}
+input{
+    display: none;
+}
+label{
+    background: url(../img/unchecked.png)no-repeat;
+    background-size: 90px;
+    padding-left:120px;
+}
+input:checked + label{
+    background: url(../img/checked.png)no-repeat;
+    background-size: 90px;
+    padding-left:120px;
+}

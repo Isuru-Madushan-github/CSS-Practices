@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+    font-size: 1.25em;
+}
+
+/* ////////////////////////////// pseudo class selectors related to links  */
+
+a:link {        /* normal or un-visited link*/
+    color: green;
+}
+a:visited{      /* visited link*/
+    color: red;
+}
+a:hover{
+    background: gray;
+}
+a:active{       /* when link clicking*/
+    background: black;
+    color: white;
+}
+/* a:focus{
+    background: yellow;
+} */
+
+
+/* ////////////////////////////// pseudo element selectors  */
+
+li:first-child{     /*  ======first-of-type */
+    border: 2px solid red;
+}
+li:last-child{  /* ===== last-of-type*/
+    color: red;
+}
+li:nth-child(4){
+    background: yellow;
+}
+li:nth-child(even){     /* even , odd , 3n */
+    font-size: 2em;
+}
+li:empty{
+    display: none;
+}
+hr+p::first-letter{
+    font-size: 1.95em;
+    /* float: left; */
+}
+p::first-line{
+    color: blue;
+}
+p::before{
+    content: "-----";
+}
+p::after{
+    content: "-----";
+}
+
+
+/* ////////////////////////////// pseudo class selectors related to web forms  */

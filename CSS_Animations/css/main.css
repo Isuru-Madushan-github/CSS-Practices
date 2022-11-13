@@ -1,0 +1,72 @@
+
+body{
+    /* perspective: 400px; */
+}
+div{
+    margin: 2rem;
+    background: red;
+    width: 100px;
+    height: 100px;
+    /* transition: transform 2s; */
+    /* transform: translateX(400px); */
+    /* transform: translateY(400px); */
+    /* transform: translate(400px,400px); */
+    /* transform: scale(2); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(45deg) translateX(400px); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
+    /* animation-name: design1;
+    animation-duration: 3s; */
+    /* animation-timing-function: steps(15); */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); */
+    /* animation-fill-mode: forwards; */
+    /*animation-iteration-count: 5; */      /* "infinite"--nonstop iteration */
+    /* animation-direction: alternate;
+    animation-delay: 5s; */
+
+
+    /* animation shorthand form== */
+    animation: design1 2s linear 2s infinite alternate forwards;
+            /* animationName duration timingFunction delay iterationCount direction fillMode */
+}
+@keyframes design1{
+    from{transform: translateX(0px);background-color: red;}
+    to{transform: translateX(400px);background-color: gray;}
+}
+
+p{
+    background: black;
+    color: white;
+    width: 100px;
+    padding: 1rem;
+    text-align: center;
+    /* animation-name: design2;
+    animation-duration: 2s;
+    position: relative; */
+    /* animation-fill-mode: forwards; */
+    
+}
+
+@keyframes design2 {
+    to{transform: translateX(400px);} 
+}
+.p1{
+    animation: design2 2s ease 0s 1 alternate forwards ;
+}
+.p2{
+    animation: design2 2s ease-in 0s 1 alternate forwards ;
+}
+.p3{
+    animation: design2 2s ease-out 0s 1 alternate forwards ;
+}
+.p4{
+    animation: design2 2s ease-in-out 0s 1 alternate forwards ;
+}
+.p5{
+    animation: design2 2s linear 0s 1 alternate forwards ;
+}
+.p6{
+    animation: design2 2s step-end 0s 1 alternate forwards ;
+}

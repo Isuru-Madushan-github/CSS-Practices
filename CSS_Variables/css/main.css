@@ -1,0 +1,18 @@
+:root{
+   --theme-color:maroon; 
+   --borderWidth:1px solid black;
+}
+
+body{
+    background: skyblue;
+    border: var(--borderWidth);
+}
+h2{
+    color: var(--theme-color);
+}
+a{
+    color: var(--theme-color);
+}
+#subheading1+p{
+    border: var(--borderWidth);
+}

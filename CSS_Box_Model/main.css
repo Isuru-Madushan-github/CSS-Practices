@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.firstdiv{
+    background: red;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 20px solid black;
+}
+
+.seconddiv{
+    background: red;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 20px solid black;
+    box-sizing: border-box;
+}

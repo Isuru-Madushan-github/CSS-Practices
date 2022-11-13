@@ -1,0 +1,31 @@
+input:focus{
+    background: gray;
+}
+input:disabled{
+    color: red;
+    text-align: center;
+}
+input:read-only{
+    background: black;
+    color: white;
+}
+input:required{
+    border-color: red;
+}
+input[type="email"]:invalid{
+    background: pink;
+    border-color: black;
+}
+input[type="email"]:valid{
+    background: rgb(107, 235, 107);
+}
+input#age:out-of-range{
+    background: rgb(250, 135, 135);
+}
+input#age:in-range{
+    background: gray;
+}
+input[type="checkbox"]:checked{
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+th,td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 50px auto;
+}
+td{
+    text-align: center;
+}
+tr td:nth-child(3){
+    text-align: right;
+}
+tbody tr:nth-child(odd){
+    background: skyblue;
+}
+thead tr:nth-child(2){
+    background: royalblue;
+    color: white;
+}
+tbody tr:hover{
+    background: gold;
+}

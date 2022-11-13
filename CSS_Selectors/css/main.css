@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body>h1{
+    background: red;
+    color: white;
+    width: 50%;
+    padding: 1rem;
+    margin: .5rem;
+}
+p{
+    margin: 1rem;
+}
+body >p::first-letter{
+    font-size: 2rem;
+}
+#p2{
+    background: gray;
+}
+.p1{
+    border: 1px solid black;
+}
+ul{
+    background: yellow;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    background: red;
+}
+li:last-child{
+    background: red;
+}
+li:nth-child(odd):hover{
+    background: white;
+}
+a[href]{
+    background: skyblue;
+}
+a[href="www.google.com"]{
+    background: green;
+}
+input{
+    display: block;
+    margin: 1rem;
+}
+input[type="password"]{
+    background: yellow;
+}
+article >p{
+    background: skyblue;
+}
+section h1+p{
+    background: black;
+    color: white;
+}
+article h1~p{
+    font-size: 2em;
+}
